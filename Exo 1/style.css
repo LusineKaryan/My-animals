@@ -1,16 +1,32 @@
-
+@font-face { 
+    font-family:babyschool;
+    src: url(fonts/BabySchoolItalic.ttf);
+}
+@font-face { 
+    font-family:rainbow;
+    src: url(fonts/grayed_rainbow.zip);
+}    
+@font-face { 
+    font-family:amsterdam;
+    src: url(fonts/Love\ Amsterdam\ Italic.otf);    
+}
+p {font-family: "WebFont", Arial, sans-serif; }
 body {
     background-color: cornsilk;
 }   
     p{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif; /* гарнитура шрифта параграфов */
-    font-size: 130%; /* размер шрифта */
-    text-align: center; /* текст по центру */
-    border: 5px green double; /* стили рамки */
+    font-size: 140%;
+    text-align: center;
+    border: 5px green double;
     }
     
     .leftimg {
-     float:left; /* Выравнивание по левому краю */
-     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+     float:left;
+     margin: 7px 7px 7px 0;
+    }
+
+    h1 {
+        font-family:babyschool;
+        font-size: 100px;
     }

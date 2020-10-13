@@ -1,13 +1,14 @@
 body {
     background-color: rgb(197, 143, 190);
 }   
-p{
+    p{
     color: blue;
-    font-family: Arial, Helvetica, sans-serif; /* гарнитура шрифта параграфов */
-    font-size: 130%; /* размер шрифта */
-    text-align: center; /* текст по центру */
-    border: 5px;/* стили рамки */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    border: 5px;
     }
     .rightpic {
-        float: right; /* Выравнивание по правому краю */
-        margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+        float: right;
+        margin: 0 0 5px 5px;
+    
