@@ -1,6 +1,20 @@
+@font-face { 
+    font-family:miracle;
+    src: url(../fonts/Miracle\ Day.ttf);
+}
 body {
-    background-color: rgb(197, 143, 190);
-}   
+    
+    background-color: rgb(207, 171, 202);
+    }
+    
+    div{
+    transition: background-color 0.5s ease;
+    background-color: rgb(207, 171, 202);
+    }
+    div:hover {
+    background-color: rgb(201, 144, 193);
+    }
+
     p{
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,12 +41,50 @@ body {
         color: red;
         text-decoration:underline;
        }
-    p{
-        text-align: left;
-        color: blue;
+    
+    .centrer {
+    text-align: center;
+    font-size: 1cm;
+    font-style: italic;
+    color:rgb(109, 18, 18);
+    }
+       p{
+        color: currentColor;
     }
     .1 {
         text-align: justify;
         color:green;
     }
+    
+    .leftimg{
+        float: left;
+        margin: 7px 7px 7px 0;
+    }
+    
+    .button {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #af4c8e;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+       
+      .button:hover {background-color: #4aac5f}
+       
+      .button:active {
+        background-color: #6120ac;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      h1{
+          font-family: miracle;
+          font-size: 50px;
+      }
+      
+
     
